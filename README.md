@@ -11,16 +11,24 @@ The goal is to make is partially OS agnostic ( really only needs to work on Max 
 - python 2.7 + setup tools/pip
 - faws-cli
 
-#### gems:
+#### gems(in chefdk):
 - knife-rackspace ( knife plugin)
 - knife-docker (knife plugin)
 - knife-solo_data_bag
 - knife-solo
 
-##### python modules:
+#### system python modules
+- virtualenv
+- virtualenvwrapper
+- 
+##### Virtualenvs:
 - supernova
 - rackspace nova extensions
 - aws cli
+- rax montioring cli
+- 
+
+
 
 Configs to bring along:
 - ssh config
