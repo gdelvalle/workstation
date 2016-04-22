@@ -4,7 +4,7 @@ The goal is to make is partially OS agnostic ( really only needs to work on Max 
 
 #### Apps:
 - chefdk
-- rvm
+- rbenv*
 - vagrant
 - packer
 - virtualbox
@@ -13,6 +13,11 @@ The goal is to make is partially OS agnostic ( really only needs to work on Max 
 - faws-cli 
 - editorconfig
 - sublime text
+- brew
+  - jq*
+  - tmux*
+  - mtr*
+  - dos2unix*
 
 #### sublime plugins
 - cloudformation
@@ -22,19 +27,26 @@ The goal is to make is partially OS agnostic ( really only needs to work on Max 
 - pathogen
 - vim-json 
 - vim-yaml
+- vim-ruby
 
 #### gems(in chefdk):
 - knife-rackspace ( knife plugin)
 - knife-docker (knife plugin)
 - knife-solo_data_bag
 - knife-solo
+- tmuxinator
+- guard
+- guard-shell
+- wirble
+- pry
+- powder (managing pow)
 
 #### system python modules
 - virtualenv
 - virtualenvwrapper
 
 
-##### Virtualenvs:
+##### Virtualenvs/pip modules:
 - supernova
 - rackspace nova extensions
 - aws cli
@@ -43,8 +55,9 @@ The goal is to make is partially OS agnostic ( really only needs to work on Max 
 
 
 
+
 Configs to bring along:
 - ssh config ( ~/.ssh/config)
 - ~/.ssh/ssh_config ( defines some fucntions that discovers network  to set proxy)
-- dot files (link to repo here) ( e.g. ~/.editorconfig)
+- dot files (link to repo here) ( e.g. ~/.editorconfig, ~/.gemrc, ~/.irb, ~/.heatrc, ~/.tmux.conf, ~/.vimrc, ~/.vim)
 
